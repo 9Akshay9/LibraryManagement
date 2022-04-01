@@ -74,7 +74,7 @@ public class LibraryManagementController {
 		session.removeAttribute("username");
 		session.invalidate();
 		mv.setViewName("redirect:/");
-		
+		System.out.println("Example");
 		return mv;
 	}
 	
